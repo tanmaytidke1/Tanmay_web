@@ -1,26 +1,27 @@
 *{
      padding: 0px;
      margin: 0px;
-   
-     
-
+     box-sizing: border-box;
 }
-h1{
 
-     font-family: 'Agbalumo', system-ui;
-font-family: 'Bungee Spice', sans-serif;
-font-family: 'Kalnia', serif;
-font-family: 'Rubik Maps', system-ui;
-font-family: 'Rubik Scribble', system-ui;
-font-family: 'Ysabeau SC', sans-serif;
-     color: white;
-}
 .navbar-brand h2{
      font-family: 'Kalnia', serif;
 font-family: 'Rubik Maps', system-ui;
 }
 .carousel-caption p{
-     color: white;
+     font-size: 20px;
+     font-weight: bold; 
+     color: rgb(250, 250, 250);
+      text-shadow: 2px 2px black,
+      2px 2px black; 
+}
+.carousel-caption h1{
+     font-size: 50px;
+      font-size: bold;
+      color: rgb(255, 255, 255); 
+       text-shadow: 2px 2px black,
+       2px 2px black,
+       2px 2px black;
 }
 .carousel-caption h5{
      color: white;
@@ -35,3 +36,9 @@ font-family: 'Rubik Maps', system-ui;
      min-width: 50%;
      max-width: 200px;
 }
+.nav-item:hover{
+     transform: scale(1.1);
+     transition: all 0.3s;
+     z-index: 999;
+}
+
